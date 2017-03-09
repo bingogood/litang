@@ -1,0 +1,457 @@
+body{
+	font-family: "微软雅黑";
+}
+header{
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	width: 100%;
+	margin:0 auto;
+}
+.logo{
+	background: black;
+	width: 100%;
+	height: 37px;
+	overflow: hidden;
+}
+.logo img{
+	display: inline-block;
+	vertical-align: bottom;
+}
+.logo .wenzi{
+	display: inline-block;
+	color: #606060;
+	text-align: center;
+	line-height: 37px;
+	
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.number{
+	margin-left: 11px;
+	color: #606060;
+	text-align: center;
+}
+.denglu,.shiyong{
+	display: inline-block;
+	vertical-align: top;
+}
+.number{
+	display: inline-block;
+	vertical-align: super;
+}
+.denglu{
+	width: 81px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #C5171F;
+	color: white;
+	cursor: pointer;
+}
+.shiyong{
+	width: 81px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	background: #3A3A3A;
+	color: white;
+	margin-right: 13px;
+	cursor: pointer;
+}
+.xinfukuaixian{
+	background:#474747;
+	width: 100%;
+	/*border-bottom: 1px solid black;*/
+	    position: relative;
+}
+.margin img{
+	margin-left: 148px;
+	display: inline-block;
+	vertical-align: text-bottom;
+}
+.xinfuleft{
+	/*margin-left: 10.27%;*/
+	float: left;
+	position: relative;
+	z-index: 9;
+}
+.xinfuleft img{
+	width:100%;
+	display: block;
+	float: left;
+}
+.xinfuright{
+	box-sizing: border-box;
+	width:100%;
+	padding-left: 34%;
+}
+.xinfukuaixian ul{
+	height: 100%;
+}
+.xinfukuaixian .xinfuright ul li{
+	text-align: center;
+	width: 12%;
+	height: 69px;
+	float: left;
+	line-height: 69px;
+	border-bottom: 3px solid transparent;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+}
+/*添加边框*/
+
+.xinfukuaixian .xinfuright ul li.border{
+	border-bottom: 3px solid #c31b26;
+}
+
+
+.xinfukuaixian ul li a{
+	color: #F4F4F4;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#header .lianxiwomen{
+	width: 100%;
+}
+.lefttop{
+	font-size: 20px;
+	color: #c31b26;
+}
+.xiacd{
+	position:absolute;
+	width: 100%;
+	display: none;
+	z-index: 999;
+}
+	
+/*下拉*/
+.xinfuright{
+	position: relative;
+	
+	}
+.xl{
+	border-bottom: 3px solid #000000;
+	background: #FFF;
+}
+		
+.xl1{
+	width: 100%;	
+	/*position: absolute;*/
+	/*left: 0px;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	display: none;
+	background: #FFFFFF;
+}
+.xl1_1{
+	width:60%;
+	margin: auto;	
+}
+.xl1_2 img{
+		width:40%;
+	}
+	
+.xl1_3{
+	width:50%;
+	float: right;
+}
+.xl1_4{
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+}	
+.xl1_5{
+	line-height:25px;	
+}
+.xl1_5 span{
+	float: right;
+	}
+
+.xl2{
+	width:100%;
+	padding-left:36%;
+	left: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: none;
+	border-bottom: 3px solid #000000;
+	box-sizing: border-box;
+	padding-right: 10%;
+}
+.xl2>div{
+	width:45%;
+	float: left;
+	padding-left: 5%;
+	}
+.xl2_2{
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+	}	
+.xl2_3{
+	line-height:25px;	
+	
+}
+.xl2_3 span{
+	float: right;
+	margin-right: 5%;
+	}
+.xl3{
+	width:100%;
+	padding-left:36%;
+	left: 0px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #000000;
+	display: none;
+	padding-right: 10%;
+	box-sizing: border-box;
+	}
+.xl3_1{
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+}
+.xl3_2>div{
+	width:45%;
+	float: left;
+	padding-right: 5%;
+}
+.biaoti{
+	font-size: 16px;
+}
+.xl a{
+	font-size: 14px;
+	color: #83888B;
+	
+}
+
+
+
+/*解决方案*/
+.appmenu{
+	display: none;
+}
+@media only screen and (min-width: 1132px) and (max-width: 1440px) {
+	.number {
+     margin-right: 19px; 
+}
+.xinfuleft {
+     margin-left: 10.27%; 
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1131px) {
+	.xinfukuaixian ul li {
+    text-align: center;
+    width: 12%;
+    height: 69px;
+    float: left;
+    line-height: 69px;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+	.number{
+		display: none;
+	}
+}
+.xinfuleft {
+    margin-left: 2.27%;
+    float: left;
+}
+.xinfukuaixian ul li a {
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 768px) {
+	.xinfuleft {
+	   /* margin-left: 4.27%;*/
+	    float: left;
+	}
+	.xinfukuaixian ul li{
+		text-align: center;
+	    width: 12%;
+	    height: 69px;
+	    float: left;
+	    line-height: 69px;
+	}
+	.menu-qiye {
+	    padding: 46px 0px 46px 0px;
+	}
+.menu-jiejue {
+	    padding: 46px 0px 46px 4%;
+	}
+	.left {
+    font-size: 12px;
+}
+.right {
+    font-size: 12px;
+}
+.number {
+    margin-left: 11px;
+    color: #606060;
+    text-align: center;
+}
+.xinfukuaixian ul li a {
+    font-size: 14px;
+}
+.qiyeright {
+    float: left;
+    margin-left: 4px;
+}
+}
+@media only screen and (max-width: 768px) {
+	.logo .wenzi{
+		display: none;
+	}
+	.xinfuleft img{
+		width: 50%;
+	}
+	.number{
+		display: none;
+	}
+	.applogo{
+		width: 80px;
+		margin-top: 5%;
+	}
+	.xinfuright{
+		display: none;
+	}
+	.hanbao{
+		position: absolute;
+	    width: 24px;
+	    height:10px;
+	    right: 5%;
+	    top: 30%;
+	}
+	.btn{
+		display: block;
+		width: 24px;
+	    height: 3px;
+	    position: absolute;
+	    background: #ccc;
+	    z-index: 10;
+	    right: 5%;
+    	top: 50%;
+	    -moz-transition: all 0.3s;
+	    -o-transition: all 0.3s;
+	    -webkit-transition: all 0.3s; 
+	    transition: all 0.3s; 
+	}
+	.btn:before {
+    content: '';
+    position: absolute;
+    background: #ccc;
+    top: -8px;
+    width: 24px;
+    height: 3px;
+    z-index: 10;
+    display: block;
+   	-moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+     -webkit-transition: all 0.3s; 
+     transition: all 0.3s
+}
+.btn:after {
+    content: '';
+    position: absolute;
+    background: #ccc;
+    top: 8px;
+    width: 24px;
+    height: 3px;
+    z-index: 10;
+    display: block;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+     -webkit-transition: all 0.3s; 
+     transition: all 0.3s
+}
+.xinfukuaixian ul li {
+    width: 12%;
+}
+.xinfukuaixian ul {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.open{
+	background: transparent;
+}
+.open:after{
+	transform: rotate(-45deg);
+	top: 0px;
+}
+.open:before{
+	transform: rotate(45deg);
+	top: 0px;
+}
+.appmenu{
+	position: absolute;
+    background: #ffffff;
+    width: 90%;
+	padding: 5%;
+	z-index: 100;
+}
+.appmenu li{
+	margin-bottom: 10px;
+}
+.appmenu li a{
+	color: #83888B;
+}
+.appmenu a:after{
+	    float: right;
+    position: relative;
+    margin: 0px 5px;
+    vertical-align: middle;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-left: 4px;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    transition: all 250ms ease;
+    float: right;
+    vertical-align: middle;
+    margin-top: 5px;
+    border-color: #83888b;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*添加手机端二级菜单*/
+	
+	.list{
+		display: none;
+		padding-left: 30px;
+	}
+	.current ul{
+		display: block;
+	}
+
+	.appmenu a.onelist:after{
+		transform: rotate(135deg);
+		
+	}
+	.appmenu .current a.onelist:after{
+		display: none;
+	}
+
+	
+	/*添加手机端二级菜单结束*/	
+
+}

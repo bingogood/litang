@@ -1,0 +1,899 @@
+body{
+	font-family: "微软雅黑";
+}
+
+	#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid white;
+    position: absolute;
+    right: 16%;
+    bottom: 16%;
+}
+.good{
+	width: 100%;
+	background: #4D4E50;
+	height: 38px;
+	color: white;
+}
+.cao {
+    margin-left: 4%;
+    margin-top: 1%;
+    height: 38px;
+    width: 56%;
+    
+    background: #000000;
+    opacity: 0.2;
+    border: 2px solid #FFFFFF;
+}
+.baoqilai{
+	    padding-left: 10%;
+}
+.lianxi,.qiangda{
+	color: white;
+	font-size: 30px ;
+	text-align: center;
+}
+.qiangda{
+	margin-top: 1.19%;
+	margin-bottom: 2.68%;
+}
+.lianxi{
+	
+	margin-top: -19%;
+}
+.all{
+	width: 100%;
+	text-align: center;
+}
+input{
+	border-radius: 5px;
+	width: 20.76%;
+	height: 41px;
+	background: white;
+	text-indent: 15px;
+}
+
+.tijiao{
+	width: 147px;
+	height: 41px;
+	background: #C5171F;
+	font-size: 16px;
+	color: white;
+	vertical-align: top;
+	    margin-left: 20%;
+    margin-top: 1%;
+}
+.lianxiwomen{
+	width: 80%;
+	margin: auto;
+	padding: 5% 0;
+	box-sizing: border-box;
+}
+.lianxileft{
+	float: left;
+	width: 58%;
+}
+.lefttop{
+	font-size: 20px;
+	color: #c31b26;
+}
+.lianxileft p{
+	font-size: 14px;
+	line-height: 32px;
+}
+/*.mgbottom{
+	margin-bottom: 10%;
+}*/
+.lianxileft   .red{
+	color: #dc4e54;
+}
+.lianxileft span{
+	display: inline-block;
+}
+.addres{
+	margin-top: 6%;
+    margin-left: 10%;
+}
+.lianxiright{
+	width: 42%;
+	float: right;
+}
+
+.lianxiright ul{
+	float: left;
+	text-align:left;
+	font-size: 12px;
+	width: 32%;
+}
+.lianxiright ul li{
+	height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.lianxiright ul li .hei{
+		font-weight: bold;
+	color: #5e5e5e;
+	display: block;
+    width: 100%;
+    height: 100%;
+}
+.lianxiright ul li a{
+
+	color: #868686;
+}
+.youqing{
+	background: #666666;
+}
+.zhong{
+	margin: auto;
+    width: 80%;
+	border-bottom: 1px solid #fefefe;
+}
+.youqingtop{
+	/*padding:34px 284px 30px 156px;*/
+	padding: 3% 0;
+	
+}
+.you{
+	margin-top: 13px;
+	float: left;
+    height: 30px;
+    color: #393A39;
+}
+.youqingbotm{
+	text-align: center;
+	    /*height: 52px;*/
+    line-height: 52px;
+    color: #cccccc;
+}
+.youqingtop ul{
+	float: left;
+	    /*margin-left: 77px;*/
+}
+.botm17{
+	/*margin-bottom: 17px;*/
+}
+.youqingtop ul li{
+	float: left;
+	margin-right: 35px;
+	line-height: 32px;
+}
+.youqingtop ul li a{
+	color:#D3D1D3;
+	font-size: 14px;
+}
+/*致电表单*/
+.biaodan{
+	width: 100%;
+	position: relative;
+}
+.biaodan img{
+	width: 100%;
+	display: block;
+}
+.biaoall{
+	width: 80%;
+	top: 12%;
+	left: 15%;
+	position: absolute;
+}
+.biaoleft{
+	padding: 2% 5%;
+	text-align: center;
+	font-size: 18px;
+	background: rgba(0,0,0,0.5);
+	opacity: 0.7;
+	color: #FFFFFF;
+	width: 22%;
+	line-height: 30px;
+	float: left;
+}
+.biaoright{
+	float: left;
+    margin-left: 10%;
+    width: 58%;
+}
+.b1{
+	font-size: 18px;
+	color: #adadac;
+}
+.b2{
+	font-size:30px ;
+	color: #FFFFFF;
+	margin-bottom: 1%;
+}
+.b3{
+	font-size: 18px;
+	color: #adadac;
+	margin-bottom: 2%;
+}
+.b4{
+	font-size: 16px;
+	color: #fefefe;
+}
+.b4 input{
+	opacity: 0.2;
+	border-radius: 0;
+	background: #000000;
+	border: 2px solid #FFFFFF;
+	margin-left: 5%;
+	margin-top: 1%;
+	height: 36px;
+    width: 55%;
+    color: #FFFFFF;
+}
+
+.b4 span{
+	display: inline-block;
+	width: 15%;
+}
+
+
+@media only screen and (min-width: 760px) and (max-width: 1100px) {
+/*新增表单*/
+.tijiao{
+	width: 126px;
+	height: 44px;
+	background: #c11e2c;
+	color: #fffefe;
+	text-align: center;
+	line-height: 44px;
+	margin-left: 20%;
+	margin-top: 1%;
+}
+.cao{
+	margin-left: 4%;
+    margin-top: 1%;
+	height: 23px;
+    width: 44%;
+    background:#000000;
+    opacity: 0.2;
+    border: 2px solid #FFFFFF;
+}
+.youqingtop ul li a{
+	font-size: 12px;
+}
+
+.youqingbotm {
+    font-size: 12px;
+}
+.lianxiright ul li{
+	height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.you {
+    margin-top: 0px;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    color: #393A39;
+}
+.addres {
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.lianxiwomen {
+    width: 80%;
+    margin: auto;
+     padding: 1%; 
+    box-sizing: border-box;
+}
+.biaoleft{
+	font-size: 14px;
+	line-height: 28px;
+}
+.b1{
+	font-size: 14px;
+}
+.b2{
+	font-size:24px ;
+}
+.b3{
+	font-size: 14px;
+}
+.b4 span {
+    display: inline-block;
+    width: 20%;
+}
+.b4 input {
+    height: 23px;
+    width: 43%;
+}
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    position: absolute;
+    right: 19%;
+    bottom: 16%;
+}
+.tijiao {
+    width: 80px;
+    height: 30px;
+    background: #c11e2c;
+    color: #fffefe;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+.baoqilai {
+    padding-left: 16%;
+}
+
+}
+@media only screen and (min-width: 501px) and (max-width: 760px) {
+	.lianxiright ul li{
+	height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+}
+.youqingtop ul li a{
+	font-size: 12px;
+}
+.youqingbotm {
+    font-size: 12px;
+}
+.youqingtop ul li a{
+	font-size: 12px;
+}
+	.youqingtop {
+    padding: 1% 0;
+    width: 100%;
+    margin: auto;
+}
+	.you {
+    margin-top: 0px;
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    color: #393A39;
+}
+	.lianxiwomen {
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.lianxileft {
+    width: 40%;
+}
+.lianxiright {
+    width: 57%;
+    float: right;
+}
+	.zhong {
+    margin: auto;
+    width: 90%;
+    border-bottom: 1px solid #fefefe;
+}
+
+.biaoleft{
+	display: none;
+}
+.b1{
+	font-size: 12px;
+}
+.b2{
+	font-size:13px ;
+	margin-bottom: 0;
+}
+.b3{
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.b4{
+	font-size: 12px;
+}
+.b4 span {
+    display: inline-block;
+    width: 20%;
+}
+.b4 input {
+    height: 15px;
+    width: 43%;
+    
+}
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid white;
+    position: absolute;
+    right: 31%;
+    bottom: 16%;
+}
+.cao {
+    margin-left: 4%;
+    margin-top: 1%;
+    height: 18px;
+    width: 44%;
+    background: #000000;
+    opacity: 0.2;
+    border: 2px solid #FFFFFF;
+}
+.lianxileft p {
+    font-size: 12px;
+    line-height: 32px;
+}
+.tijiao {
+    width: 45px;
+    height: 15px;
+    background: #c11e2c;
+    color: #fffefe;
+    text-align: center;
+    line-height: 15px;
+    margin-left: 25.5%;
+    margin-top: 1%;
+    border-radius: 0px;
+    font-size: 12px;
+}
+.biaoall {
+    width: 90%;
+    top: 8%;
+    left: 8%;
+    position: absolute;
+}
+.biaoright {
+    float: left;
+    margin-left: 15%;
+    width: 80%;
+}
+.youqingtop ul {
+    float: left;
+    margin-left: 77px;
+}
+.lianxi, .qiangda {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+button {
+    width: 70px;
+    height: 26px;
+    border-radius: 5px;
+    background: #C5171F;
+    font-size: 14px;
+    color: white;
+    vertical-align: top;
+}
+input {
+    border-radius: 5px;
+    width: 27.76%;
+    height: 26px;
+    background: white;
+}
+
+.youqing {
+    font-size: 12px;
+}
+.lefttop {
+    margin-bottom: 5%;
+    font-size: 16px;
+}
+.addres {
+    margin-top: 1%; 
+     
+    margin-left: 0%;
+}
+.banquan{
+	display: block;
+}
+.worktime{
+	display: block;
+	margin-top: 2%;
+}
+.mgbottom {
+    margin-bottom: 0%;
+}
+.lianxileft p {
+    font-size: 12px;
+    line-height: 28px;
+}
+.shijian {
+    margin-top: 0%;
+}
+.lianxiwomen{
+	width: 80%;
+	padding: 5%;
+	box-sizing: border-box;
+}
+
+.youqingtop ul {
+     margin-left: 0px; 
+}
+.lianxiwomen{
+	width: 90%;
+	margin: auto;
+	padding: 2% 0;
+	box-sizing: border-box;
+}
+.youqingbotm{
+    line-height: 26px;
+}
+.botm17 {
+    margin-bottom: 0px;
+}
+.lianxiright ul li {
+    height: 20px;
+    line-height: 20px;
+}
+.yuan{
+	margin-bottom: 5px;
+}
+.baoqilai {
+    padding-left: 16%;
+}
+.block{
+		display: inline-block;
+	}
+}
+@media only screen and (min-width: 420px) and (max-width: 500px) {
+	#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid white;
+    position: absolute;
+    right: 25%;
+    bottom: 20%;
+}
+
+.cao {
+    margin-left: 4%;
+    margin-top: 1%;
+    height: 18px;
+    width: 44%;
+    background: #000000;
+    opacity: 0.2;
+    border: 2px solid #FFFFFF;
+}
+.youqingtop ul li a{
+	font-size: 12px;
+}
+.youqingbotm {
+    font-size: 12px;
+}
+
+	.zhong {
+    margin: auto;
+    width: 90%;
+    border-bottom: 1px solid #fefefe;
+}
+	.block{
+		display: inline-block;
+	}
+	.lianxiright ul li{
+	height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+}
+	.you {
+    margin-top: 0px;
+    float: left;
+    height: 20px;
+    color: #393A39;
+}
+	.lianxiwomen {
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.shijian {
+    margin-top: 1%;
+}
+
+	.lianxiwomen{
+	width: 100%;
+	margin: auto;
+	padding-left: 10%;
+	box-sizing: border-box;
+}
+.lefttop {
+    font-size: 14px;
+    color: #c31b26;
+}
+.biaoleft{
+	display: none;
+}
+.biaoright {
+     margin-left: 15%; 
+    width: 90%;
+}
+.biaoall {
+    width: 90%;
+    top: 4%;
+    left: 5%;
+    position: absolute;
+}
+
+.b1{
+	font-size: 12px;
+}
+.b2{
+	font-size:12px ;
+	margin-bottom: 0;
+}
+.b3{
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.b4{
+	font-size: 12px;
+}
+.b4 span {
+    display: inline-block;
+    width: 20%;
+}
+.lianxileft p {
+    font-size: 12px;
+    line-height: 18px;
+}
+.b4 input {
+    height: 11px;
+    width: 43%;
+}
+.tijiao {
+    width: 40px;
+    height: 20px;
+    background: #c11e2c;
+    color: #fffefe;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 25%;
+    margin-top: 1%;
+    font-size: 12px;
+}
+.youqingtop ul {
+    float: left;
+    margin-left: 0px;
+}
+.botm17 {
+    margin-bottom: 0px;
+}
+.lianxiright {
+    width: 100%;
+    float: left;
+    margin: 2% 0;
+}
+
+.lianxiright ul {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    width: 25%;
+}
+.mgbottom {
+    margin-bottom: 1%;
+}
+.addres {
+    margin-top: 4% ;
+    
+    margin-left: 0%;
+}
+.youqingbotm {
+    text-align: center;
+    line-height: 25px;
+    color: #cccccc;
+    font-size: 12px;
+}
+.banquan{
+	display: block;
+	
+}
+.youqingtop {
+    font-size: 12px;
+    /* padding: 34px 284px 30px 156px; */
+    padding: 3%;
+}
+
+.lianxiright ul li {
+    height: 25px;
+    line-height: 25px;
+}
+.baoqilai {
+    padding-left: 0%;
+}
+
+.lianxileft {
+    float: left;
+    width: 80%;
+    margin-top: 2%;
+}
+}
+@media only screen and (min-width: 100px) and (max-width: 420px) {
+		#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid white;
+    position: absolute;
+    right: 25%;
+    bottom: 20%;
+}
+.biaodan img {
+    width: 123%;
+    display: block;
+}
+.biaodan {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.youqingtop ul li a{
+	font-size: 12px;
+}
+.youqingbotm {
+    font-size: 12px;
+}
+.cao {
+    margin-left: 4%;
+    margin-top: 1%;
+    height: 18px;
+    width: 44%;
+    background: #000000;
+    opacity: 0.2;
+    border: 2px solid #FFFFFF;
+}
+.cao .good{
+	background: white;
+}
+	.zhong {
+    margin: auto;
+    width: 90%;
+    border-bottom: 1px solid #fefefe;
+}
+	.block{
+		display: inline-block;
+	}
+	.lianxiright ul li{
+	height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+}
+	.you {
+    margin-top: 0px;
+    float: left;
+    height: 20px;
+    color: #393A39;
+}
+	.lianxiwomen {
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.shijian {
+    margin-top: 1%;
+}
+
+	.lianxiwomen{
+	width: 100%;
+	margin: auto;
+	padding-left: 10%;
+	box-sizing: border-box;
+}
+.lefttop {
+    font-size: 14px;
+    color: #c31b26;
+}
+.biaoleft{
+	display: none;
+}
+.biaoright {
+     margin-left: 15%; 
+    width: 90%;
+}
+.biaoall {
+    width: 90%;
+    top: 2%;
+    left: 5%;
+    position: absolute;
+}
+
+.b1{
+	font-size: 12px;
+}
+.b2{
+	font-size:12px ;
+	margin-bottom: 0;
+}
+.b3{
+	font-size: 12px;
+	margin-bottom: 0;
+}
+.b4{
+	font-size: 12px;
+}
+.b4 span {
+    display: inline-block;
+    width: 20%;
+}
+.lianxileft p {
+    font-size: 12px;
+    line-height: 18px;
+}
+.b4 input {
+    height: 11px;
+    width: 43%;
+}
+.tijiao {
+    width: 40px;
+    height: 20px;
+    background: #c11e2c;
+    color: #fffefe;
+    text-align: center;
+    line-height: 20px;
+    margin-left: 25%;
+    margin-top: 1%;
+    font-size: 12px;
+}
+.youqingtop ul {
+    float: left;
+    margin-left: 0px;
+}
+.botm17 {
+    margin-bottom: 0px;
+}
+.lianxiright {
+    width: 100%;
+    float: left;
+    margin: 4% 0;
+}
+
+.lianxiright ul {
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    width: 25%;
+}
+.mgbottom {
+    margin-bottom: 1%;
+}
+.addres {
+    margin-top: 2% ;
+    
+    margin-left: 0%;
+}
+.youqingbotm {
+    text-align: center;
+    line-height: 25px;
+    color: #cccccc;
+    font-size: 12px;
+}
+.banquan{
+	display: block;
+	
+}
+.youqingtop {
+    font-size: 12px;
+    /* padding: 34px 284px 30px 156px; */
+    padding: 3%;
+}
+
+.lianxiright ul li {
+    height: 25px;
+    line-height: 25px;
+}
+.baoqilai {
+    padding-left: 0%;
+}
+
+.lianxileft {
+    float: left;
+    width: 80%;
+    margin-top: 2%;
+}
+
+}
