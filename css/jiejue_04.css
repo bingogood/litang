@@ -1,0 +1,381 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,
+dd,ul,ol,li,pre,form,fieldset,legend,button,input,
+textarea,th,td { margin: 0; padding: 0; border: 0;}
+html { color: #000; }
+html,body { height: 100%; }
+body,button,input,select,textarea { font-size: 12px; font-family: 'Microsoft Yahei','微软雅黑', \5FAE\8F6F\96C5\9ED1,'宋体',\5b8b\4f53,arial,'Hiragino Sans GB',Tahoma,Arial,Helvetica; }
+ul,ol,li,dl,dd,dt{list-style: none;}
+em { font-style: normal; }
+a { text-decoration: none; }
+legend { color: #000; }
+fieldset,img { border: 0; }
+label,button { cursor: pointer; }
+/*解决IE图片缩放失真*/
+img { -ms-interpolation-mode: bicubic; }
+/*清除浮动*/
+.clearfix:after { content: ''; display: block; height: 0; clear: both; }
+.clearfix { zoom: 1; }
+#body{
+	width: 100%;
+	margin:100px auto 0px;
+}
+#banner{
+	position: relative;
+	width: 100%;
+}
+#banner img{
+	float: left;
+	width: 100%;
+}
+.banner_text{
+	width: 40%;
+	position: absolute;
+	left: 30%;
+}
+.banner_text p:nth-child(1){
+	color: white;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 25%;
+}
+.banner_text p:nth-child(2){
+	color: #dddddd;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 6%;
+}
+.banner_text p:nth-child(3){
+	color: #dddddd;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 6%;
+}
+/*content*/
+
+.hexin{
+	width: 71%;
+	margin: auto;
+}
+.content_top_one{
+	padding: 7% 0px;
+	box-sizing: border-box;
+	width: 100%;
+}
+.hexin_left{
+	float: left;
+}
+.hexin_right{
+	float: right;
+}
+.content_top_one ul{
+	margin-top: 5%;
+}
+.content_top_one .hexin_left li{		
+	text-indent: 1em;		
+}
+.hexin_left .ul{
+	margin-top: 15%;
+}
+.content_top_one .hexin_left li:not(.icon){
+	color: #a0a0a0;
+}
+.content_top_one .hexin_left .icon{
+	background: url(../img/jiejue/01/3.gif) 1%;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+.content_top_one .hexin_right li{
+	background: url(../img/jiejue/01/2.gif) 1%;
+	background-repeat: no-repeat;
+	text-indent: 2em;
+}
+.content_top_one p{
+	color: #c31b26;
+	font-size: 30px;
+}
+.content_top_one li{
+	position: relative;
+	font-size: 16px;
+	margin-top: 3%;
+}
+.content_top_two{
+	padding: 5% 0px;
+	box-sizing: border-box;
+	width: 100%;
+	background: #f2f2f2;
+}
+.fang{
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 2%;
+}
+.hexin2{
+	width: 90%;
+	margin: auto;	
+}
+
+.hexin2 ul li{
+	text-align: center;
+	padding: 2% 0px;
+	box-sizing: border-box;
+	float: left;
+	width: 31%;
+	margin-top: 3%;
+	border: 1px solid #e7e7e7;
+}
+.hexin2 ul li p{
+	display: block;
+	width: 75%;	
+	margin: auto;
+	font-size: 12px;
+	margin-top: 1%;
+}
+.hexin2 ul li img{
+	width: 20%;
+}
+.hexin2 ul li{
+	height: 10rem;
+}
+
+.hexin2 ul li:not(.mar_one){
+	margin-left: 3%;
+}
+.content_bot{
+	background: white;
+	padding: 7% 0px;
+	box-sizing: border-box;
+	width: 100%;
+	margin: auto;
+}
+.content_bot .hexin4{
+	text-align: center;
+}
+.content_bot .hexin4 img{
+	width: 80%;
+	margin-top: 5%;
+}
+.hexin4>p{
+	font-size: 30px;
+	text-align: center;	
+}
+.mar{
+	margin-left: 3%;
+}
+@media screen and (min-width: 720px) and (max-width: 1024px){
+	#body{
+	margin:70px auto 0px;
+}
+.banner_text{
+	width: 65%;
+	position: absolute;
+	left: 17.5%;
+}
+.banner_text p:nth-child(1){
+	font-size:30px;
+	margin-top: 5%;
+}
+.banner_text p:nth-child(2){
+	font-size: 16px;
+	margin-top: 4%;
+}
+.banner_text p:nth-child(3){
+	font-size: 16px;
+	margin-top: 4%;
+}
+.hexin{
+	width: 90%;
+}
+.content_top_one p{
+	font-size: 25px;
+}	
+.fang{
+	font-size: 25px;
+}
+.hexin2 ul li{
+	padding: 1% 0px;
+	height: 6rem;
+}
+.hexin2 ul .height{
+	height: 6rem;
+}
+.hexin2 ul li p{
+	width: 85%;
+}
+.hexin4>p {
+	font-size: 25px;
+}
+/*.hexin2 ul .cao{
+	height: 6rem;
+}*/
+.hexin2 ul li p{
+	width: 90%;
+	font-size: 12px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+}
+}
+@media screen and (min-width: 370px) and (max-width: 719px){
+	#body{
+	margin:70px auto 0px;
+}
+	.banner_text{
+	width: 80%;
+	position: absolute;
+	left: 10%;
+}
+.banner_text p:nth-child(1){
+	font-size:22px;
+	margin-top: 5%;
+}
+.banner_text p:nth-child(2){
+	font-size: 14px;
+	margin-top: 3%;
+}
+.banner_text p:nth-child(3){
+	display: none;
+}
+.hexin{
+	width: 90%;
+}
+.content_top_one p{
+	font-size: 20px;
+}	
+.fang{
+	font-size: 25px;
+}
+.hexin2 ul .height{
+	height: 6rem;
+}
+.hexin2 ul li p{
+	width: 100%;
+}
+.hexin4>p {
+	font-size: 25px;
+}
+.hexin_left,.hexin_right{
+	width: 80%;
+	float: none;
+	margin: auto;
+}
+.hexin_right{
+	margin-top: 5%;
+}
+.hexin_left .ul{
+	margin-top: 10%;
+}
+.content_top_one li{
+	font-size: 14px;
+}
+.fang{
+	font-size: 20px;
+}
+.hexin2 ul li p{
+	font-size: 12px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+}
+.hexin2 ul li:not(.height){
+	height: 7rem;
+}
+.hexin2 ul .height{
+	height: 7rem;
+}
+.hexin2 ul li:not(.mar_one){
+	margin-left: 0%;
+}
+.hexin2 ul .mar{
+	margin-left: 0%;
+}
+.hexin2 ul .height{
+	height: 6rem;
+}
+.hexin2 ul li{
+	width: 47%;
+}
+.hexin2 ul li:not(.lala) {
+    margin-left: 6%;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 370px){
+	#body{
+	margin:70px auto 0px;
+}
+	.banner_text{
+	width: 80%;
+	position: absolute;
+	left: 10%;
+}
+.banner_text p:nth-child(1){
+	font-size:16px;
+	margin-top: 5%;
+}
+.banner_text p:nth-child(2){
+	font-size: 12px;
+	margin-top: 3%;
+	-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+}
+.banner_text p:nth-child(3){
+	display: none;
+}
+.hexin{
+	width: 90%;
+}
+.content_top_one p{
+	font-size: 16px;
+}	
+.hexin2 ul .height{
+	height: 6rem;
+}
+.hexin2 ul li p{
+	width: 100%;
+}
+.hexin4>p {
+	font-size: 25px;
+}
+.hexin_left,.hexin_right{
+	width: 80%;
+	float: none;
+	margin: auto;
+}
+.hexin_right{
+	margin-top: 5%;
+}
+.hexin_left .ul{
+	margin-top: 10%;
+}
+.content_top_one li{
+	font-size: 12px;
+}
+.fang{
+	font-size: 18px;
+}
+.hexin2 ul li{
+	width: 47%;
+}
+.hexin2 ul li p{
+	font-size: 12px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+}
+.hexin2 ul li:not(.height){
+	height: 7rem;
+}
+.hexin2 ul .height{
+	height: 5.5rem;
+}
+.hexin2 ul li:not(.mar_one) {
+    margin-left: 0%;
+    }
+.hexin2 ul li:not(.lala) {
+    margin-left: 6%;
+    }
+ .hexin2 ul .mar{
+	margin-left: 0%;
+}  
+}
