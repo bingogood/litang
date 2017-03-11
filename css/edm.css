@@ -1,0 +1,150 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	background:#ebebeb;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+input{
+	outline: none;
+}
+.body_box{
+	width:79.86%;
+	margin:auto;
+}
+.top{
+	font-size:14px;
+	margin:2.11% 0 3.03%;
+}
+.body{
+	box-sizing:border-box;
+	border-top:1px solid #bfbfbf;
+	border-bottom:1px solid #bfbfbf;
+	text-align:center;
+	padding:3.74% 0 5.392%;
+}
+.body img{
+	width:100%;
+}
+.inputs{
+	width:56.35%;
+	margin:auto;
+	font-size:14px;
+}
+.edm{
+	font-size:24px;
+	line-height:107px;
+	text-align:center;
+}
+.name1{
+	width:16.513%;
+	line-height:30px;
+}
+.inputs span{
+	color:#ce696e;
+}
+.flot{
+	float:left;
+}
+.marg{
+	margin-bottom:20px;
+}
+.name2{
+	width:82.26%;
+	height:30px;
+	background:#e4e4e4;
+	border:1px solid #cecece;
+}
+.check input{
+	float:left;
+	margin-left:16.513%;
+	width:18px;
+	height:18px;
+	margin-right:5px;
+}
+.check p{
+	float:left;
+}
+.check:after{
+    content:"."; 
+    display:block; 
+    height:0; 
+    visibility:hidden; 
+    clear:left;
+}
+.dingyue{
+	width:22.224%;
+	height:44px;
+	background:#c31b26;
+	color:#fff;
+	line-height:44px;
+	text-align:center;
+	margin:43px auto 9%;
+}
+@media only screen and (max-width: 1255px) {
+		.check{
+			position:relative;
+		}
+		.check p{
+			position:absolute;
+			left:22%;
+			width:130%;
+		}
+}
+@media only screen and (max-width: 910px) {
+		.inputs{
+			width:71.35%;
+		}
+		.check p{
+			width:110%;
+		}
+}
+@media only screen and (max-width: 730px) {
+		.inputs{
+			width:100%;
+		}
+		.name1{
+			width:22.513%;
+		}
+		.name2{
+		    width: 75.26%;
+		}
+		.check input{
+			margin-left:0;
+		}
+		.check p{
+			width:77%;
+		}
+		.dingyue{
+			margin-top:62px;
+		}
+}
+@media only screen and (max-width: 500px){
+		.dingyue{
+			width:35%;
+		}
+		.body_box{
+			width:90%;
+		}
+}
+@media only screen and (max-width: 400px){
+		.dingyue{
+			width:45%;
+		}
+		.name1{
+			width:29%;
+		}
+		.name2{
+		    width: 70%;
+		}
+		.check p{
+			left:26%;
+			font-size:12px;
+		}
+}

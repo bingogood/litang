@@ -1,0 +1,183 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.body_box{
+	width:79.88%;
+	margin:auto;
+}
+.top{
+	font-size:14px;
+	margin:1.74% 0 4.18%;
+}
+.nav{
+	line-height:31px;
+	font-size:18px;
+}
+
+.floatfix:after{
+    content:"."; 
+    display:block; 
+    height:0; 
+    visibility:hidden; 
+    clear:both;
+}
+.one-box{
+	float:left;
+}
+.body ul{
+	width:80%;
+	float:left;
+}
+.nav li{
+	width:auto;
+	text-align:center;
+	padding:0 2.3%;;
+	list-style:none;
+	float:left;
+	font-size:14px;
+}
+.nav li:first-child{
+	background:#c31b26;
+}
+.nav li a{
+	color:#000;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.nav .one_li a{
+	color:#fff;
+}
+.body{
+	border-top:1px solid #cfcfcf;
+	margin-top:1.12%;
+}
+.body_body{
+	width:79.88%;
+	margin:auto;
+}
+.bd_img{
+	width:31.63%;
+	float:left;
+}
+.bd_img img{
+	width:100%;
+}
+.marg_right{
+	margin-right:2.54%;
+}
+.one_p{
+	font-size:14px;
+	margin-top:3%;
+}
+.two_p{
+	font-size:12px;
+	color:#999;
+	margin-top:1%;
+}
+.marg_top{
+	margin-top:4%;
+}
+.body_body{
+	box-sizing:border-box;
+	padding-top:2.3%;
+}
+.bottom{
+	width:44.86%;
+	margin:5% auto;
+	text-align:center;
+	line-height:36px;
+	font-size:14px;
+   
+}
+.bottom div{
+	float:left;
+}
+.up,.down{
+	width:19.18%;
+	background:#c31b26;
+}
+.bottom .down{
+	float:right;
+}
+.up a{
+	color:#fff;
+}
+.down a{
+	color:#fff;
+}
+.num{
+	width:50%;
+	margin-left:11%;
+}
+.num li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	width:14%;
+}
+.red a{
+	color:#c31b26;
+}
+.bd_img a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+@media only screen and (max-width: 800px) {
+	
+	.two_p{
+		text-align:right;
+	}
+}
+@media only screen and (max-width: 650px) {
+
+	.two_p{
+		text-align:right;
+	}
+	.nav li{
+		font-size:12px;
+	}
+	.bd_img{
+		width:48%;
+	}
+	.marg_right{
+		margin-right:4%;
+	}
+}
+@media only screen and (max-width:500px ) {
+	.one_p{
+		font-size:13px;
+	}
+	.bottom{
+		width:82%;
+		margin:auto;
+		box-sizing:border-box;
+		padding-top:5%;
+		 padding-bottom: 5%;
+	}
+	.body_box,.body_body{
+		width:90%;
+	}	
+	ul{
+		width:100%;
+	}
+	.nav li{
+		padding: 0 4.3%;
+	}
+}
+@media only screen and (max-width:400px ) {
+	.one_p{
+		font-size:12px;
+	}
+}
+
