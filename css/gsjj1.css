@@ -1,0 +1,189 @@
+	body, html, main {
+		 height: 100%;
+		 float: left;
+	}
+	main{
+		margin-top: 100px;
+	}
+	 #tu1,#tu2,#tu3{
+	 	display: none;
+	 }
+	.cd-fixed-bg {
+		 min-height: 100%;
+		 background-size: cover;
+		 background-attachment: fixed;
+		 background-repeat: no-repeat;
+		 background-position: center center;
+	}
+ 
+	.cd-fixed-bg.cd-bg-1 {
+ 		background-image:url("../img/gywm/gsjj1.jpg");
+	}
+	.cd-fixed-bg.cd-bg-2 {
+		background-image:url("../img/gywm/gsjj2.jpg");
+	}
+	.cd-fixed-bg.cd-bg-3 {
+		background-image:url("../img/gywm/gsjj3.jpg");
+	}
+
+	#wzone,#wztwo,#wzthree{
+		width: 100%;
+		box-sizing: border-box;
+		margin: auto;
+		font-family: "微软雅黑";
+		font-size: 20px;
+		text-align: center;
+	}
+	#wzone{
+		padding-top: 114px;
+		padding-bottom: 127px;
+	}
+	#wztwo{
+		padding-top: 134px;
+		padding-bottom: 143px;
+	}
+	#wzthree{
+		padding: 97px 27px 110px 25px;
+	}
+	
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	
+	body, html, main {
+	 height: 100%;
+	}
+	.cd-fixed-bg {
+		 min-height: 100%;
+		 background-size: cover;
+		 background-attachment: fixed;
+		 background-repeat: no-repeat;
+		 background-position: center center;
+	}
+ 
+	.cd-fixed-bg.cd-bg-1 {
+	 	background-image:url("../img/gywm/gsjj1.jpg");
+	}
+	.cd-fixed-bg.cd-bg-2 {
+		background-image:url("../img/gywm/gsjj2.jpg");
+	}
+	.cd-fixed-bg.cd-bg-3 {
+		background-image:url("../img/gywm/gsjj3.jpg");
+	}
+	#wzone,#wztwo,#wzthree{
+		width: 80%;
+		box-sizing: border-box;
+		margin: auto;
+		font-family: "微软雅黑";
+		font-size: 14px;
+	}
+
+	#wzone{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	#wztwo{
+		padding-top: 70px;
+		padding-bottom: 80px;
+	}
+	#wzthree{
+		padding: 65px 27px 70px 25px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+	
+	 #tu1,#tu2,#tu3{
+	 	width: 100%;
+	 	display: block;
+	 }
+	main{
+		margin-top: 70px;
+	}
+	body, html, main {
+	 height: 0px;
+	}
+ 
+	.cd-fixed-bg {
+		 min-height: 0%;
+		 background-size: cover;
+		 background-attachment: fixed;
+		 background-repeat: no-repeat;
+		 background-position: center center;
+	}
+ 
+	.cd-fixed-bg.cd-bg-1 {
+	 	background-image:url("../img/gywm/gsjj1.jpg");
+	}
+	.cd-fixed-bg.cd-bg-2 {
+		background-image:url("../img/gywm/gsjj2.jpg");
+	}
+	.cd-fixed-bg.cd-bg-3 {
+		background-image:url("../img/gywm/gsjj3.jpg");
+	}
+	#wzone,#wztwo,#wzthree{
+		width: 80%;
+		box-sizing: border-box;
+		margin: auto;
+		font-family: "微软雅黑";
+		font-size: 14px;
+	}
+	#wzone{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	#wztwo{
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+	#wzthree{
+		padding: 45px 17px 50px 15px;
+	}
+}
+@media only screen and (min-width:319px) and (max-width:767px) {
+	
+	 #tu1,#tu2,#tu3{
+	 	width: 100%;
+	 	display: block;
+	 }
+	
+	body, html, main {
+	 height: 0px;
+	}
+ 	main{
+		margin-top: 70px;
+	}
+	.cd-fixed-bg {
+	 min-height: 0px;
+	 background-size:cover;
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
+	 background-position: center center;
+	}
+ 
+	.cd-fixed-bg.cd-bg-1 {
+	 	background-image:url("../img/gywm/gsjj1.jpg");
+	}
+	.cd-fixed-bg.cd-bg-2 {
+		background-image:url("../img/gywm/gsjj2.jpg");
+	}
+	.cd-fixed-bg.cd-bg-3 {
+		background-image:url("../img/gywm/gsjj3.jpg");
+	}
+	#wzone,#wztwo,#wzthree{
+		width: 90%;
+		box-sizing: border-box;
+		margin: auto;
+		font-family: "微软雅黑";
+		font-size: 12px;
+	}
+	#wzone{
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	#wztwo{
+		padding-top: 10%;
+		padding-bottom:10%;
+	}
+	#wzthree{
+		padding: 10% 0% 10% 0%;
+	}
+	
+}

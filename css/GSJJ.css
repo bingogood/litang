@@ -1,0 +1,142 @@
+@media only screen and (min-width: 1440px){
+
+	#wap{
+		width: 100%;
+		height: 100%;
+		font-family: "微软雅黑";
+		font-size: 20px;
+		text-align: center;
+	}
+	#tcone,#tcthree,#tctwo{
+		width: 100%;
+	}
+	#tcone>a>img,#tcthree>a>img,#tctwo>a>img{
+		width: 100%;
+	}
+	#wzone,#wztwo,#wzthree{
+		width: 1150px;
+		box-sizing: border-box;
+		margin: auto;
+	}
+	#wzone{
+		padding-top: 114px;
+		padding-bottom: 127px;
+	}
+	#wztwo{
+		padding-top: 134px;
+		padding-bottom: 143px;
+	}
+	#wzthree{
+		padding: 97px 27px 110px 25px;
+	}
+	
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+	
+	#wap{
+		width: 100%;
+		height: 100%;
+		font-family: "微软雅黑";
+		font-size: 14px;
+		text-align: center;
+	}
+	#tcone,#tcthree,#tctwo{
+		width: 100%;
+	}
+	#tcone>a>img,#tcthree>a>img,#tctwo>a>img{
+		width: 100%;
+	}
+	#wzone,#wztwo,#wzthree{
+		width: 80%;
+		box-sizing: border-box;
+		margin: auto;
+	}
+	#wzone,#wztwo,#wzthree{
+		box-sizing: border-box;
+		margin: auto;
+	}
+	#wzone{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	#wztwo{
+		padding-top: 70px;
+		padding-bottom: 80px;
+	}
+	#wzthree{
+		padding: 65px 27px 70px 25px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+	
+	#wap{
+		width: 100%;
+		height: 100%;
+		font-family: "微软雅黑";
+		font-size: 14px;
+		text-align: center;
+	}
+	#tcone,#tcthree,#tctwo{
+		width: 100%;
+	}
+	#tcone>a>img,#tcthree>a>img,#tctwo>a>img{
+		width: 100%;
+	}
+	#wzone,#wztwo,#wzthree{
+		width: 80%;
+		box-sizing: border-box;
+		margin: auto;
+	}
+	#wzone,#wztwo,#wzthree{
+		box-sizing: border-box;
+		margin: auto;
+	}
+	#wzone{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	#wztwo{
+		padding-top: 70px;
+		padding-bottom: 80px;
+	}
+	#wzthree{
+		padding: 65px 27px 70px 25px;
+	}
+}
+@media only screen and (min-width:767px ) {
+	
+	#wap{
+		width: 100%;
+		height: 100%;
+		font-family: "微软雅黑";
+		/*font-size: 14px;*/
+		text-align: center;
+	}
+	#tcone,#tcthree,#tctwo{
+		width: 100%;
+	}
+	#tcone>a>img,#tcthree>a>img,#tctwo>a>img{
+		width: 100%;
+	}
+	#wzone,#wztwo,#wzthree{
+		width: 80%;
+		box-sizing: border-box;
+		margin: auto;
+	}
+	#wzone,#wztwo,#wzthree{
+		box-sizing: border-box;
+		margin: auto;
+	}
+	#wzone{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	#wztwo{
+		padding-top: 70px;
+		padding-bottom: 80px;
+	}
+	#wzthree{
+		padding: 65px 27px 70px 25px;
+	}
+	
+}

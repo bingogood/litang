@@ -1,0 +1,242 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,
+dd,ul,ol,li,pre,form,fieldset,legend,button,input,
+textarea,th,td { margin: 0; padding: 0; border: 0;}
+html { color: #000; }
+html,body { height: 100%; }
+body,button,input,select,textarea { font-size: 12px; font-family: 'Microsoft Yahei','微软雅黑', \5FAE\8F6F\96C5\9ED1,'宋体',\5b8b\4f53,arial,'Hiragino Sans GB',Tahoma,Arial,Helvetica; }
+ul,ol,li,dl,dd,dt{list-style: none;}
+em { font-style: normal; }
+a { text-decoration: none; }
+legend { color: #000; }
+fieldset,img { border: 0; }
+label,button { cursor: pointer; }
+/*解决IE图片缩放失真*/
+img { -ms-interpolation-mode: bicubic; }
+/*清除浮动*/
+.clearfix:after { content: ''; display: block; height: 0; clear: both; }
+.clearfix { zoom: 1; }
+.contents_bot_one{
+	width: 100%;
+	position: relative;
+}
+.contents_bot_one img{
+	float: left;
+	width: 100%;
+}
+.guang{
+	color: white;
+	position: absolute;
+	left: 13%;
+	width: 42%;
+}
+.guang p:nth-child(1){
+	font-size: 70px;
+	margin-top: 10%;
+}
+.guang p:nth-child(2){
+	font-size: 30px;
+}
+.guang p:nth-child(3){
+	font-size: 16px;
+	margin-top: 6%;
+}
+.guang p:nth-child(4){
+	font-size: 14px;
+	margin-top: 10%;
+}
+.contents_bot_two{	
+	width: 100%;
+}
+.hexin3{
+	padding: 7% 0px;
+	box-sizing: border-box;
+	width: 80%;
+	margin: auto;
+}
+.hexin3 .shipin img{
+	width: 100%;
+}
+.hexin3 ul li{
+	float: left;
+}
+.hexin3 .shipin ul li{
+	width: 23.3%;
+}
+.hexin3 .shipin ul li p{
+	text-align: left;
+	font-size: 14px;
+}
+.hexin3 .shipin ul li:not(.none){
+	margin-left: 2.1%;
+}
+.hexin3 .pinpai ul li:not(.none){
+	margin-left: 2%;
+}
+.hexin3 .pinpai{
+	margin-top: 5%;
+}
+.hexin3 .pinpai ul li{
+	width: 15%;
+}
+.hexin3 .pinpai ul li img{
+	width: 100%
+}
+@media screen and (min-width: 720px) and (max-width: 1024px){
+	.guang p:nth-child(1){
+	font-size: 40px;
+	margin-top: 5%;
+	}
+	.guang p:nth-child(2){
+		font-size: 22px;
+	}
+	.guang p:nth-child(3){
+		font-size: 14px;
+		margin-top: 2%;
+	}
+	.guang p:nth-child(4){
+		font-size: 14px;
+		margin-top: 5%;
+	}
+	.hexin3 .shipin ul li p{
+	font-size: 12px;	
+	}
+	.guang{
+	color: white;
+	position: absolute;
+	left: 13%;
+	width: 55%;
+}
+.hexin3{
+	width: 90%;
+	}
+}
+@media screen and (min-width:370px) and (max-width: 720px){
+	.hexin3{
+	width: 100%;
+	}
+	.hexin4>p {
+		font-size: 18px;
+	}
+	.hexin3 .shipin ul li{
+	width: 44%;
+	margin-top: 2%;
+	}
+	.hexin3 .shipin ul li:not(.none){
+	margin-left: 0%;
+	}	
+	.hexin3 .shipin ul li:not(.none2){
+	margin-left: 4%;
+	}	
+	.hexin3 .shipin ul li p{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 3%;
+	}
+	.guang{
+		width: 90%;
+		position: absolute;
+		left: 5%;
+	}
+	.guang p:nth-child(1){
+		display: inline;
+	font-size: 30px;
+
+	}
+	.guang p:nth-child(2){
+		font-size: 16px;
+		margin-top: -3%;
+	}
+	.guang p:nth-child(3){
+		font-size: 12px;
+		margin-top: 3%;
+	}
+	.guang p:nth-child(4){
+		font-size: 12px;
+		margin-top: -3%;
+		text-align: center;
+	}
+	.hexin3 .pinpai ul li:not(.none){
+	margin-left:0px;
+}
+.hexin3 .pinpai ul li:not(.none2){
+	margin-left:4%;
+}
+.hexin3 .pinpai{
+	margin-top: 5%;
+}
+.hexin3 .pinpai ul li{
+	height: 4rem;
+	width: 44%;
+	margin-top:14%;
+}
+.hexin3 .pinpai ul li img{
+	width: 100%
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+	.hexin3{
+	width: 100%;
+	}
+	.hexin4>p {
+		font-size: 18px;
+	}
+	.hexin3 .shipin ul li{
+	width: 44%;
+	margin-top: 2%;
+	}
+	.hexin3 .shipin ul li:not(.none){
+	margin-left: 0%;
+	}	
+	.hexin3 .shipin ul li:not(.none2){
+	margin-left: 4%;
+	}	
+	.hexin3 .shipin ul li p{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 3%;
+	}
+	.guang{
+		width: 90%;
+		position: absolute;
+		left: 5%;
+	}
+	.guang p:nth-child(1){
+		display: inline;
+		font-size: 25px;
+margin-top: -5%;
+	}
+	.guang p:nth-child(2){
+		font-size: 12px;
+		margin-top: -5%;
+	}
+	.guang p:nth-child(3){
+		font-size: 12px;
+		-webkit-transform: scale(0.8);
+		margin-top: 2%;
+		margin-left: -10%;
+	}
+	.guang p:nth-child(4){
+		font-size: 12px;
+		margin-top: -2%;
+		text-align: right;
+		font-weight: bold;
+	}
+	.hexin3 .pinpai ul li:not(.none){
+	margin-left:0px;
+}
+.hexin3 .pinpai ul li:not(.none2){
+	margin-left:4.8%;
+}
+
+.hexin3 .pinpai ul li{
+	/*height: 3rem;*/
+	width: 43%;
+	margin-top: 3%;
+}
+.hexin3 .pinpai ul li img{
+	width: 100%
+}
+
+}
