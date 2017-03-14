@@ -19,14 +19,13 @@ body{
 	color: white;
 }
 .cao {
-    margin-left: 4%;
+    margin-left: 4.3%;
     margin-top: 1%;
     height: 38px;
-    width: 56%;
-    
-    background: #000000;
-    opacity: 0.2;
-    border: 2px solid #FFFFFF;
+    width: 55.5%;  
+    	color: #FFF;
+      background:rgba(0,0,0,.3);
+    border: 2px solid #e3e3e3;
 }
 .baoqilai{
 	    padding-left: 10%;
@@ -215,10 +214,9 @@ input{
 	color: #fefefe;
 }
 .b4 input{
-	opacity: 0.2;
 	border-radius: 0;
-	background: #000000;
-	border: 2px solid #FFFFFF;
+	background:rgba(0,0,0,.3);
+	border: 2px solid #e3e3e3;
 	margin-left: 5%;
 	margin-top: 1%;
 	height: 36px;
@@ -248,10 +246,10 @@ input{
 	margin-left: 4%;
     margin-top: 1%;
 	height: 23px;
-    width: 44%;
-    background:#000000;
-    opacity: 0.2;
-    border: 2px solid #FFFFFF;
+	color: #FFF;
+    width: 43.7%;
+     background:rgba(0,0,0,.3);
+    border: 2px solid #e3e3e3;
 }
 .youqingtop ul li a{
 	font-size: 12px;
@@ -411,13 +409,14 @@ input{
     bottom: 16%;
 }
 .cao {
-    margin-left: 4%;
+    margin-left: 4.3%;
     margin-top: 1%;
     height: 18px;
-    width: 44%;
-    background: #000000;
-    opacity: 0.2;
-    border: 2px solid #FFFFFF;
+    	color: #FFF;
+    width: 43.6%;
+    font-size: 10px;
+      background:rgba(0,0,0,.3);
+    border: 2px solid #e3e3e3;
 }
 .lianxileft p {
     font-size: 12px;
@@ -549,13 +548,14 @@ input {
 }
 
 .cao {
-    margin-left: 4%;
+	font-size: 8px;
+    margin-left: 4.3%;
     margin-top: 1%;
-    height: 18px;
-    width: 44%;
-    background: #000000;
-    opacity: 0.2;
-    border: 2px solid #FFFFFF;
+    height: 16px;
+    	color: #FFF;
+    width: 43.6%;
+       background:rgba(0,0,0,.3);
+    border: 2px solid #e3e3e3;
 }
 .youqingtop ul li a{
 	font-size: 12px;
@@ -740,15 +740,14 @@ input {
 .cao {
     margin-left: 4%;
     margin-top: 1%;
-    height: 18px;
-    width: 44%;
-    background: #000000;
-    opacity: 0.2;
-    border: 2px solid #FFFFFF;
+    height: 16px;
+    	color: #FFF;
+    width: 43.8%;
+      background:rgba(0,0,0,.3);
+    border: 2px solid #e3e3e3;
+    font-size: 8px;
 }
-.cao .good{
-	background: white;
-}
+
 	.zhong {
     margin: auto;
     width: 90%;
