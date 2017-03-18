@@ -4,6 +4,7 @@
 	//手机端移动菜单
 	var flag = true;
 	$(".btn").click(function() {
+		
 
 		if(flag) {
 			$(".btn").addClass("open");
@@ -27,6 +28,11 @@
 		var arr = [0,0,0,0,0,0];
 	
 		$(".xinfuright ul li:not(.resource)").click(function  () {
+			$('.tumb').css({
+				visibility:"visible",
+				opacity:"0.8"
+			});
+					
 
 			var i=$(this).attr('xuHao');
 			/*状态为1代表已经点击之后的状态*/
@@ -46,8 +52,7 @@
 				
 				if(!$('.xiacd').is(":animated")){
 					$('.xiacd>.xl').eq(i).show().siblings().hide();
-					$('.xiacd').stop().slideDown();
-					
+					$('.xiacd').stop().slideDown();					
 					$(".xinfuright ul li:not(.resource)").removeClass('border');
 					$(this).addClass('border');
 					
@@ -58,12 +63,23 @@
 				
 				$('.xiacd').stop().slideUp();
 				$(this).removeClass('border');
+				$('.tumb').css({
+					visibility:"hidden",
+					opacity:"0"
+				});
 			}
 
 		})
 	})
 	
-	
+	$('.tumb').click(function(){
+		$('.xiacd').slideUp();
+		$('.tumb').css({
+			visibility:"hidden",
+			opacity:"0"
+		});
+		$(".xinfuright ul li:not(.resource)").removeClass('border');
+	})
 	
 	/*添加手机端二级菜单*/
 	
