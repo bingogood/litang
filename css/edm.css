@@ -30,7 +30,7 @@ input{
 	padding:3.74% 0 5.392%;
 }
 .body img{
-	width:100%;
+	/*width:100%;*/
 }
 .inputs{
 	width:56.35%;
@@ -87,6 +87,11 @@ input{
 	text-align:center;
 	margin:43px auto 9%;
 }
+@media only screen and (max-width: 1439px) {
+	.body img{
+		width:56.34%;
+	}
+}
 @media only screen and (max-width: 1255px) {
 		.check{
 			position:relative;
@@ -135,7 +140,7 @@ input{
 }
 @media only screen and (max-width: 400px){
 		.dingyue{
-			width:45%;
+			width:35%;
 		}
 		.name1{
 			width:29%;

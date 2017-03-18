@@ -30,8 +30,8 @@ img { -ms-interpolation-mode: bicubic; }
 	width: 42%;
 }
 .guang p:nth-child(1){
-	font-size: 70px;
-	margin-top: 10%;
+	font-size:50px;
+	margin-top:6%;
 }
 .guang p:nth-child(2){
 	font-size: 30px;
@@ -42,7 +42,7 @@ img { -ms-interpolation-mode: bicubic; }
 }
 .guang p:nth-child(4){
 	font-size: 14px;
-	margin-top: 10%;
+	margin-top:6%;
 }
 .contents_bot_two{	
 	width: 100%;
@@ -69,23 +69,54 @@ img { -ms-interpolation-mode: bicubic; }
 .hexin3 .shipin ul li:not(.none){
 	margin-left: 2.1%;
 }
-.hexin3 .pinpai ul li:not(.none){
-	margin-left: 2%;
-}
 .hexin3 .pinpai{
 	margin-top: 5%;
+	position: relative;
 }
-.hexin3 .pinpai ul li{
+.swiper-wrapper .swiper-slide a img{
 	width: 15%;
+	margin-left: 1.2%;
+	}
+.swiper-button-next,.swiper-button-prev {	
+	width: 30px;
+	height: 15px;
+	z-index: 10;
+	cursor: pointer;
+	color: white;	
+	-moz-background-size: 27px 44px;
+	-webkit-background-size: 27px 44px;
+	background-size: 27px 44px;
+	background-position: center;
+	background-repeat: no-repeat
 }
-.hexin3 .pinpai ul li img{
-	width: 100%
-}
+.swiper-button-next{
+	position: absolute;
+	top: 20%;left: -40%;
+	}
+.swiper-button-prev{
+		position: absolute;
+	    top: 20%;left: 20%;
+		}
+.button_prev,.button_next{
+	border-radius: 50%;
+	position: relative;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background: #D1D1D1;
+	}
+.button_prev{
+	left: 25%;
+	}
+	.button_next{
+		left: 45%;
+		}
 @media screen and (min-width: 720px) and (max-width: 1024px){
 	.guang p:nth-child(1){
 	font-size: 40px;
 	margin-top: 5%;
 	}
+	
 	.guang p:nth-child(2){
 		font-size: 22px;
 	}
@@ -108,6 +139,9 @@ img { -ms-interpolation-mode: bicubic; }
 }
 .hexin3{
 	width: 90%;
+	}
+	.hexin3 .pinpai ul li:not(.none){
+		margin-left:1.8%;
 	}
 }
 @media screen and (min-width:370px) and (max-width: 720px){
@@ -172,9 +206,38 @@ img { -ms-interpolation-mode: bicubic; }
 .hexin3 .pinpai ul li img{
 	width: 100%
 }
-
+.swiper-button-next,.swiper-button-prev {
+	width: 25px;
+	height: 10px;
 }
+.swiper-wrapper .swiper-slide a img{
+	width: 45%;
+	margin-left: 3.2%;
+	}
 
+	.button_prev{
+	left: 15%;
+	}
+	.button_next{
+		left: 40%;
+		}
+		.swiper-button-next{
+	position: absolute;
+	top: 30%;left: -30%;
+	}
+.swiper-button-prev{
+		position: absolute;
+	    top: 30%;left: 30%;
+		}
+}
+@media screen and (min-width: 720px) and (max-width: 510px) {
+	.button_prev{
+	left: 15%;
+	}
+	.button_next{
+		left: 45%;
+		}
+}
 @media screen and (min-width: 320px) and (max-width: 370px) {
 	.hexin3{
 	width: 100%;
@@ -238,5 +301,38 @@ margin-top: -5%;
 .hexin3 .pinpai ul li img{
 	width: 100%
 }
-
+.button_prev,.button_next{
+	width: 20px;
+	height: 20px;
+	}
+.swiper-button-next,.swiper-button-prev {
+	width: 25px;
+	height: 10px;
+}
+.swiper-wrapper .swiper-slide a img{
+	width: 45%;
+	margin-left: 3.2%;
+	}
+.button_prev,.button_next{
+	border-radius: 50%;
+	position: relative;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background: #D1D1D1;
+	}
+	.button_prev{
+	left: 10%;
+	}
+	.button_next{
+	left: 25%;
+		}
+		.swiper-button-next{
+	position: absolute;
+	top: 25%;left: -50%;
+	}
+.swiper-button-prev{
+		position: absolute;
+	    top: 25%;left: 30%;
+		}
 }

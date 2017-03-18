@@ -1,6 +1,7 @@
 .why_top{
 	width: 100%;
 	position: relative;
+	    margin-top: 100px;
 }
 .why_top img{
 	width: 100%;
@@ -144,7 +145,7 @@ color: #fff;
 	color:#a0a0a0;
 	font-size: 12px;
 }
-@media only screen and (min-width:720px) and (max-width:1024px) {
+@media only screen and (min-width:770px) and (max-width:1024px) {
 	.why_main1r_1{
 		font-size: 16px;
 	}
@@ -160,7 +161,33 @@ color: #fff;
 	}
 	
 }
-@media only screen and (min-width:410px) and (max-width:719px) {
+@media only screen and (min-width: 719px) and (max-width: 769px) {
+	
+		.why_main1r_1{
+		font-size: 16px;
+	}
+	.why_top3,
+	.why_main1r_2{
+		font-size: 14px;
+	}
+	.why_why2{
+		font-size: 12px;
+	}
+	.why_top2{
+		font-size: 30px;	
+	}
+	.why_top{
+	width: 100%;
+	position: relative;
+	    margin-top: 70px;
+}
+}
+@media only screen and (min-width:410px) and (max-width:718px) {
+	.why_top {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
 	.why_main1r_1{
 		font-size: 12px;
 	}
@@ -205,6 +232,11 @@ color: #fff;
 
 
 @media only screen and (min-width:319px) and (max-width:409px) {
+	.why_top {
+    width: 100%;
+    position: relative;
+    margin-top: 70px;
+}
 	.why_main1r_1{
 		font-size: 10px;
 	}

@@ -192,7 +192,13 @@ img { -ms-interpolation-mode: bicubic; }
 		color: #000;
 	}
 }
-@media screen and (min-width: 720px) and (max-width:1023px) {
+@media screen and (min-width: 769px) and (max-width:1023px) {
+	#content{
+		width: 90%;
+		margin-top: 100px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:1023px) {
 	#web{
 		width: 90%;
 		margin-top: 70px;

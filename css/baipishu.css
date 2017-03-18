@@ -27,6 +27,7 @@ a{
 }
 .body{
 	font-size:14px;
+	font-family: arial;
 }
 .body_img{
     width: 32.33%;
@@ -120,7 +121,7 @@ a{
 	width:50%;
 	padding-bottom:3%;
 	background:#fff;
-	margin:8% auto;
+	margin:11% auto;
 }
 .close{
 	float:right;

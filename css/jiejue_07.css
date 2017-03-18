@@ -12,8 +12,7 @@ button,
 input,
 select,
 textarea {
-	font-size: 12px;
-	font-family: 'Microsoft Yahei', '微软雅黑', \5FAE\8F6F\96C5\9ED1, '宋体', \5b8b\4f53, arial, 'Hiragino Sans GB', Tahoma, Arial, Helvetica;
+	'微软雅黑',Arial;
 }
 
 ul,
@@ -87,16 +86,16 @@ img {
 }
 
 .banner_text {
-	width: 40%;
+	width: 60%;
 	position: absolute;
-	left: 30%;
+	left: 20%;
 }
 
 .banner_text p:nth-child(1) {
 	color: white;
 	font-size: 48px;
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 15%;
 }
 
 .banner_text p:nth-child(2) {
@@ -136,7 +135,7 @@ img {
 
 .content_top_one ul {
 	margin-top: 5%;
-	margin-left: 15%;
+	margin-left: 0%;
 }
 
 .content_top_one .hexin_left li {
@@ -254,15 +253,15 @@ img {
 	}
 	.banner_text p:nth-child(1) {
 		font-size: 30px;
-		margin-top: 10%;
+		margin-top: 8%;
 	}
 	.hexin2 ul li {
 		height: 8rem;
 	}
 	.banner_text {
-		width: 60%;
+		width: 80%;
 		position: absolute;
-		left: 20%;
+		left: 10%;
 	}
 	.banner_text p:nth-child(2) {
 		font-size: 14px;
@@ -293,7 +292,11 @@ img {
 		font-size: 25px;
 	}
 }
-
+@media screen and (min-width:769px) and (max-width: 1023px) {
+	#body {
+		margin: 100px auto 0px;
+	}
+}
 @media screen and (min-width: 370px) and (max-width:719px) {
 	#body{
 	margin:70px auto 0px;
@@ -304,18 +307,18 @@ img {
 	}
 	.banner_text p:nth-child(1) {
 		font-size:22px;
-		margin-top: 3%;
+		margin-top: 5%;
 	}
 	.hexin2 ul li {
 		height: 8rem;
 	}
 	.banner_text {
-		width: 96%;
+		width: 90%;
 		position: absolute;
-		left: 2.5%;
+		left: 5%;
 	}
 	.banner_text p:nth-child(2) {
-		margin-top: -4%;
+		margin-top: 1%;
 		font-size: 12px;
 	}
 	.banner_text p:nth-child(3) {
@@ -389,12 +392,12 @@ img {
 		height: 8rem;
 	}
 	.banner_text {
-		width: 96%;
+		width: 90%;
 		position: absolute;
-		left: 2.5%;
+		left: 5%;
 	}
 	.banner_text p:nth-child(2) {
-		margin-top: -4%;
+		margin-top: 2%;
 		font-size: 12px;
 		-webkit-transform: scale(0.8);
 		-moz-transform: scale(0.8);

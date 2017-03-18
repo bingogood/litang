@@ -27,7 +27,7 @@ img { -ms-interpolation-mode: bicubic; }
 }
 #content{
 		width: 100%;
-		padding: 105px 0 0;
+		padding: 106px 0 0;
 }
 .top-hg{
 		width: 100%;
@@ -187,7 +187,7 @@ img { -ms-interpolation-mode: bicubic; }
 	.page{
 		width: 30%;
 		margin: 0 auto;
-		margin-bottom: 45px;
+		margin-bottom: 25px;
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 719px) {
@@ -249,7 +249,7 @@ img { -ms-interpolation-mode: bicubic; }
 	.page{
 		width: 45%;
 		margin: 0 auto;
-		margin-bottom: 45px;
+		margin-bottom: 25px;
 	}
 	.last,.next{
 		font-size: 12px;
@@ -257,7 +257,7 @@ img { -ms-interpolation-mode: bicubic; }
 }
 @media screen and (min-width: 320px) and (max-width: 769px) {
 	#content{
-		padding: 72px 0 15px;
+		padding: 72px 0 0px;
 	}
 }
 

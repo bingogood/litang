@@ -12,8 +12,9 @@ button,
 input,
 select,
 textarea {
-	font-size: 12px;
-	font-family: 'Microsoft Yahei', '微软雅黑', \5FAE\8F6F\96C5\9ED1, '宋体', \5b8b\4f53, arial, 'Hiragino Sans GB', Tahoma, Arial, Helvetica;
+	'微软雅黑',
+	Arial,
+	;
 }
 
 ul,
@@ -73,7 +74,7 @@ img {
 
 #body {
 	width: 100%;
-	margin:100px auto 0px;
+	margin: 100px auto 0px;
 }
 
 #banner {
@@ -87,23 +88,24 @@ img {
 }
 
 .banner_text {
-	width: 40%;
+	width: 60%;
 	position: absolute;
-	left: 30%;
+	left: 20%;
 }
 
 .banner_text p:nth-child(1) {
 	color: white;
 	font-size: 48px;
 	text-align: center;
-	margin-top: 25%;
+	margin-top: 15%;
 }
 
 .banner_text p:nth-child(2) {
 	color: #dddddd;
 	font-size: 16px;
 	text-align: center;
-	margin-top: 6%;
+	width: 100%;
+	margin:3% auto;
 }
 
 
@@ -234,9 +236,9 @@ img {
 }
 
 @media screen and (min-width: 720px) and (max-width: 1024px) {
-	#body{
-	margin:70px auto 0px;
-}
+	#body {
+		margin: 70px auto 0px;
+	}
 	.hexin {
 		width: 90%;
 		margin: auto;
@@ -249,12 +251,13 @@ img {
 		height: 8rem;
 	}
 	.banner_text {
-		width: 60%;
+		width: 80%;
 		position: absolute;
-		left: 20%;
+		left: 10%;
 	}
 	.banner_text p:nth-child(2) {
 		font-size: 14px;
+		margin-top: 3%;
 	}
 	.content_top_one p {
 		font-size: 24px;
@@ -282,12 +285,15 @@ img {
 		font-size: 25px;
 	}
 }
-
-@media screen and (min-width: 370px) and (max-width:719px) {
-		#body{
-	margin:70px auto 0px;
+@media screen and (min-width:769px) and (max-width: 1023px) {
+	#body {
+		margin: 100px auto 0px;
+	}
 }
-	
+@media screen and (min-width: 370px) and (max-width:719px) {
+	#body {
+		margin: 70px auto 0px;
+	}
 	.hexin {
 		width: 95%;
 		margin: auto;
@@ -361,9 +367,9 @@ img {
 }
 
 @media screen and (min-width: 370px) and (max-width: 719px) {
-	#body{
-	margin:70px auto opx;
-}
+	#body {
+		margin: 70px auto opx;
+	}
 	.hexin {
 		width: 95%;
 		margin: auto;
@@ -442,10 +448,11 @@ img {
 		margin-top: 5%;
 	}
 }
+
 @media screen and (min-width: 320px) and (max-width: 370px) {
-	#body{
-	margin:70px auto;
-}
+	#body {
+		margin: 70px auto;
+	}
 	.hexin {
 		width: 95%;
 		margin: auto;
